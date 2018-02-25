@@ -4,4 +4,4 @@ export default {
   Initializer,
 };
 
-Initializer.url();
+Initializer.initializeExtension();
