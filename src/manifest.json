@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "PR Review Notepad",
+  "content_scripts": [{
+    "matches": [
+      "https://github.com/**/pull/**/files"
+    ],
+    "js": [
+      "bundle.js"
+    ]
+  }],
+  "web_accessible_resources": [
+    "bundle.js.map"
+  ]
+}
