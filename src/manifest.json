@@ -8,5 +8,8 @@
     "js": [
       "bundle.js"
     ]
-  }]
+  }],
+  "web_accessible_resources": [
+    "bundle.js.map"
+  ]
 }
